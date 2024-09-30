@@ -12,10 +12,10 @@ namespace CollectionViewMauiTest
         public ObservableCollection<DataTest> Items { get; set; } = new ObservableCollection<DataTest>();
         public DataTestViewModel()
         {
-            Items.Add(new DataTest() { Name = "random text"});
-            Items.Add(new DataTest() { Name = "random text"});
-            Items.Add(new DataTest() { Name = "random text"});
-            Items.Add(new DataTest() { Name = "random text"});
+            Items.Add(new DataTest() { Name = "Random text" });
+            Items.Add(new DataTest() { Name = "Random text" });
+            Items.Add(new DataTest() { Name = "Random text" });
+            Items.Add(new DataTest() { Name = "Random text" });
         }
     }
     public class DataTest()
